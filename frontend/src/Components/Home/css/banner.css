@@ -1,0 +1,10 @@
+.banner{
+    max-width: 1600px;
+    height: 400px;
+    width: 100%;
+    background: #000;
+}
+    @media screen and (min-width:1600px){
+        .navigation{    margin: 0 auto;
+        }
+    }

@@ -1,0 +1,145 @@
+.HomeSkills {
+  padding: 50px 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.RowSkills {
+  margin-bottom: 100px;
+  display: flex;
+  padding: 20px;
+  flex-direction: row-reverse;
+
+}
+.RowSkills:nth-child(3) {
+  
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+.RowSkills:nth-child(1) {
+  
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+.svgSkills {
+  width: 100%;
+  text-align: center;
+  /* background: red; */
+}
+.svgSkills svg {
+  width: 300px;
+}
+.contentSkills {
+  display: flex;
+  /* padding: 0 150px;  */
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  width: 100%;
+}
+
+
+.contentSkills h2 {
+  color: var(--f3);
+  text-shadow: 1px 1px rgb(213 188 0);
+  letter-spacing: 2px;
+  margin: 10px 0;
+  text-align: left;
+  font-size: 200%;
+}
+.contentSkills a {
+  margin: 20px 0;
+  cursor: pointer;
+  padding: 7px 20px;
+  color: black;
+  background-color: var(--f3);
+  width: fit-content;
+  text-decoration: none;
+}
+
+.contentSkills a:hover {
+  color: var(--f3);
+  background-color: black;
+}
+.contentSkills p {
+    font-size: 150%;
+    text-align: left;
+  
+}
+.hast{
+ color: var(--f3); 
+}
+
+
+.contentSkills .h2React{
+    color:#00D8FF ;
+}
+.contentSkills .aReact{
+    color:white ;
+    background-color:#00D8FF ;
+}
+.contentSkills .aReact:hover{
+    color:#00D8FF ;
+    background-color:#3D3D3D ;
+}
+
+.contentSkills .h2Pwa{
+    color:#5A0FC8 ;
+}
+.contentSkills .aPwa{
+    color:white ;
+    background-color:#5A0FC8 ;
+}
+.contentSkills .aPwa:hover{
+    color:white ;
+    background-color:#3D3D3D ;
+}
+.contentSkills .h2Nodejs{
+    color:#689f63 ;
+}
+.contentSkills .aNodejs{
+    color:white ;
+    background-color:#689f63 ;
+}
+
+.contentSkills .aNodejs:hover{
+    color:#689f63 ;
+    background-color:#3D3D3D ;
+}
+
+@media screen and (max-width: 700px) {
+  
+  .RowSkills {
+   display: flex;
+  
+    flex-direction: column;
+  
+  }
+  .RowSkills:nth-child(3) {
+  
+    flex-direction: column;
+
+  }
+  .RowSkills:nth-child(1) {
+    
+    flex-direction: column;
+
+  }
+  .contentSkills {
+ 
+    align-items: center;
+  }
+  
+  .contentSkills h2 {
+   
+    text-align: center;
+  }
+  .contentSkills a{
+    text-align: center;
+
+  }
+  }

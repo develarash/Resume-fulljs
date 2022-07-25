@@ -1,0 +1,14 @@
+.experience{
+    max-width: 1600px;
+    width: 100%;
+}.vertical-timeline-element-date{
+    color:rgb(0, 0, 0) ;
+    font-weight: 800;
+} 
+.bounce-in{
+    background-color: rgb(0, 0, 0);
+    color: var(--f3);
+}
+.vertical-timeline-element-icon{
+    -webkit-box-shadow: 0 0 0 4px black, inset 0 2px 0 rgb(0 0 0 / 8%), 0 3px 0 4px rgb(0 0 0 / 5%) !important;
+}

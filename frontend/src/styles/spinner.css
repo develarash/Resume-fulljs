@@ -1,0 +1,29 @@
+
+ .spinner {
+    margin: 200% auto;
+    width: 60px;
+    height: 60px;
+    border-color: var(--f3) rgba(226, 218, 218, 0.1) rgba(226, 218, 218, 0.1);
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 50%;
+    animation: spinner .5s infinite linear
+  }
+  
+  @keyframes spinner {
+    0% {
+      transform: rotate(0deg)
+    }
+    25%{
+      transform: rotate(90deg)
+    }
+    50%{
+      transform: rotate(180deg)
+    }
+    75%{
+      transform: rotate(270deg)
+    }
+    100%{
+      transform: rotate(360deg)
+    }
+  }

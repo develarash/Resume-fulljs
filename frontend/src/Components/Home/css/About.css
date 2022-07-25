@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap");
+.Home {
+  max-width: 1600px;
+  width: 100%;
+}
+
+.container {
+  background: #939393;
+  max-width: 1600px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+.inner {
+  justify-content: space-around;
+  display: flex;
+}
+.logo {
+  cursor: pointer;
+  text-align: center;
+}
+
+.logo svg {
+  width: 70%;
+}
+.logo svg:hover {
+  filter: saturate(2);
+}
+.logo span {
+}
+@media screen and (max-width: 470px) {
+  .inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    margin: 2vh 0;
+  }
+}
+
+/* Banner */
+.banner {
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1600px;
+  /* height: 400px; */
+  min-width: 100%;
+}
+@media screen and (min-width: 1600px) {
+  .navigation {
+    margin: 0 auto;
+  }
+}
+
+.banner-intro {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  width:100%;
+  align-items: center;
+}
+
+.intro-img {
+  width: 300px;
+  height:100%;
+}
+.intro-img img {
+  width: 100%;
+  height: 100%;
+}
+.intro-name {
+  margin-left: 5%;
+  text-align: left;
+}
+.intro-name .big-font{
+  text-align: center;
+  text-shadow: 3px  5px rgb(213, 188, 0);
+  font-size: 900%;
+  color: var(--f3);
+  font-family: "Kalam", cursive;
+
+}
+.intro-name .after-big-font{
+  text-align: right;
+  color:red;
+
+}
+.intro-name p {  text-shadow: 1px  -2px rgb(213, 188, 0);
+
+  text-align: center;
+  font-family: "Kalam", cursive;
+  font-weight: bold;
+  font-size: 320%;
+}
+.banner-about-me{
+  width: 80%;
+  padding: 20px 0;
+}
+.banner-about-me h2{
+  color: var(--f3);
+  text-shadow: 1px  1px rgb(213, 188, 0);
+  letter-spacing: 2px;
+  margin: 10px 0;
+  text-align: left;
+  font-size: 160%;
+}
+.banner-about-me p{
+font-size: 150%;
+word-spacing: 2px;
+text-align: left;
+}
+.exprienceButton{
+  margin: 20px  0;
+  cursor: pointer;
+    padding: 7px 20px;
+    color: black;
+    font-weight: 600;
+    border-radius: 1px;
+    left: 10%;
+    border: none;
+    bottom: 15%;
+   
+  
+    color: var(--f3);
+  
+    background-color: black;}
+    .exprienceButton:hover{
+  
+        color: black;
+  
+        background-color: var(--f3);
+      }
+@media screen and (max-width:968px) {
+  .banner {
+    align-items: center;
+  }
+  .banner-intro {
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+
+  }
+  .banner-about-me{
+    width: 80%;
+    text-align: center;
+    padding: 20px;
+  }
+
+}

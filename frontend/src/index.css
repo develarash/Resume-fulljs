@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&family=Asap+Condensed:ital,wght@1,400;1,500&family=Barlow+Condensed&family=Barlow+Semi+Condensed:wght@500&family=Caveat:wght@600;700&family=Kanit&family=Kite+One&family=Oswald:wght@500;600&family=Poppins:wght@700&family=Ubuntu+Condensed&display=swap');body {
+
+  background-color:var(--f1);
+font-family: sans-serif;
+width: 100%;
+  /* min-height: 120vh; */
+}
+*{
+padding: 0;
+margin: 0;
+  box-sizing: border-box;
+  transition: .2s;
+  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'Asap Condensed', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Caveat', cursive;
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Kite One', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+:root {
+  --f1: #ffffff;
+  --f2: #000000;
+  --f3:   #ffd900;
+}
+*::selection{
+  background-color: #ffd900;
+  color: black;
+}

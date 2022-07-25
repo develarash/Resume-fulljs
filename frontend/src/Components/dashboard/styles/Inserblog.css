@@ -1,0 +1,92 @@
+.inserBlog {
+  max-width: 1600px;
+}
+@media screen and (min-width: 1600px) {
+  .inserBlog {
+    margin: 0 auto;
+  }
+}
+
+.formdivInsertInput {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* Mul */
+
+/* radio button */
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid var(--f3);
+  border-radius: 100%;
+  background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: var(--f3);
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.buttondivInsertInput {
+  margin: 20px 0;
+  cursor: pointer;
+  padding: 7px 20px;
+  color: black;
+  font-weight: 600;
+  border-radius: 1px;
+  left: 10%;
+  border: none;
+  bottom: 15%;
+  color: var(--f3);
+  background-color: black;
+}
+
+.buttondivInsertInput:hover {
+  
+  color:black;
+  background-color:  var(--f3);
+}
+.errormessagedivInsertInput{
+    color: red;padding: 7px ;
+    background-color: black;
+}
